@@ -1,0 +1,9 @@
+1.	Installing and Setting up GIT
+GIT is a free and open source distributed VSC made to take care of both small and big projects with high accuracy and speed. It lets various developers to work on a similar project without necessitating them to use a common network connection. (Git Setup for Mac and Windows, 2017)
+to install and set up GIT on Mac, follow the following procedure:
+•	Launch the Terminal application and vagrant up and ssh
+•	Use the command $ sudo apt-get install git
+•	Verify the installation by typing the command: git –version. If the installation was successful, one should see the version of git installed.
+•	The next step is to configure your git username and email. $ git config --global user.name "". $ git config --global user.email ""
+•	Configure your default editor to work with git. If not configured, Git uses your system’s default editor. Use, $ git config --global core. editor nano
+
